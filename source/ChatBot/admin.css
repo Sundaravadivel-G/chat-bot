@@ -1,0 +1,75 @@
+body{
+    background-color:beige;
+    margin:0px;
+    
+ }
+ .login{
+      width:0px;
+      margin:0px auto;
+      padding:20px;
+      background-color:white;
+      height:300px;
+      box-shadow: 4px 5px 15px silver;
+      border-radius: 10px;
+      
+ }
+ .email,.pass{
+     display:block;
+     width:240px;
+     height:30px;
+     border-radius: 4px;
+     border:1px solid #ccc;
+     padding:5px;
+     margin:20px auto;
+ }
+ 
+ .submit{
+     display:block;
+     width:250px;
+     height:35px;
+     border-radius: 4px;
+     padding:5px;
+     margin:20px auto;
+     background-color: #007bff;
+     color:white;
+     border:none
+ }
+ 
+ .submit:hover{
+     background-color:#0056b3;
+ }
+ 
+ h1{
+     text-align:center;
+     border-bottom:1px solid #ccc;
+  
+ }
+ h3{
+     display:inline
+ }
+ 
+ a{
+     text-decoration:none;
+     color:#007bff;
+ }
+ 
+ img{
+     max-width:200px;
+     display: block;
+     margin:0px auto;
+ }
+ 
+ a:hover{
+     color:#0056b3;
+ }
+ 
+ .admin{
+     text-align:center;
+ }
+ 
+ h2{
+     text-align:center;
+     color:#007bff;
+     margin-top:0px;
+ }
+ 

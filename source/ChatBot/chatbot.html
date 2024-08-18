@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong|Indie+Flower|Pacifico|Kaushan+Script"> 
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <ul>
+            <a href="about.html"><li>ABOUT</li></a>
+            <a href="chatbot.html" style="background-color: indigo;"><li>CHAT</li></a>
+            <a href="login.html"><li>LOGOUT</li></a>
+        </ul>
+        <div style="border-bottom: 1px solid #ccc;"></div>
+        <div class="bot-img">
+          <img src="/images/1000_F_588953042_01Hrsog5OuZobKdMXf9GVpB6e6XiIhBa-removebg-preview.png">
+        </div>
+        <div class="human-img">
+            <img src="/images/5371020-removebg-preview.png" >
+        </div>
+        <div class="chat-box" id="chat-box"></div>
+
+        <input type="text" class="input" id="user-input" placeholder="Type your message..." required>
+        <button  class="button" onclick="sendMessage()">Send</button>
+        <!--<button type="submit" class="voice" id="start" ><img src="png-clipart-microphone-computer-icons-sound-google-voice-search-microphone-electronics-microphone-thumbnail-removebg-preview.png" width="20" height="20"></button>
+        --></div>
+    <script src="chatbot.js"></script>
+</body>
+</html>

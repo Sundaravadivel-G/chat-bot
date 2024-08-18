@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://t3.ftcdn.net/jpg/01/41/41/18/360_F_141411826_kysNMFKkA7OaWvx8DGDm5COvQw1jxFPX.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation:transitionIn 0.5s;
+}
+
+
+.chat-container {
+    max-width: 440px;
+    margin: 30px auto;
+    background-color: #fff ;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    height:560px;
+    
+}
+
+.chat-box {
+    height: 410px;
+    overflow-y: scroll;
+    overflow-x:none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.input{
+    width:230px;
+    padding: 8px;
+    border-radius: 20px;
+    border:1px solid #ccc;
+    font-size:17px;
+    
+}
+
+.button {
+    padding: 10px 15px;
+    margin-left:5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    display: inline;
+    
+}
+.button:hover{
+    background-color: #0056b3;
+}
+.bot-img{
+    position:absolute;
+    right:0;
+    float:right;
+    
+}
+
+.human-img{
+    position:absolute;
+    left:8px;
+    float:left;
+}
+ul{
+    display: flex;
+    background-color:blueviolet; 
+    justify-content: space-between;
+    margin-top:0px;
+    padding-inline-start: 0px;
+    border-radius: 5px;
+    font-family:'Courier New', Courier, monospace;
+    box-shadow: 6px 9px 10px silver;
+
+}
+li{
+    display: flex;
+    padding:10px;
+    
+}
+ 
+a{
+    text-decoration: none;
+    color:white;
+    
+}
+a:hover{
+    background-color:indigo;
+    color:white;
+    border-radius:5px;
+    
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform:scaleX(0.5)   
+     }
+    to{
+        opacity: 1;
+        transform:scaleX(1)
+    }
+}
+
+.voice{
+    display:inline;
+    margin-left:5px;
+    border-radius:50%;
+    padding:10px;
+    border:1px solid #ccc;
+    background-color: #ccc;
+    cursor:pointer;
+    
+}
+
+.voice:hover{
+    background-color: silver;
+}
